@@ -11,6 +11,7 @@
 		5ADB10C220CACAC7006DDD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10C120CACAC7006DDD3E /* main.m */; };
 		5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10CE20CACC42006DDD3E /* TestExamDemo.m */; };
 		5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10D520CACCCE006DDD3E /* Schedule.m */; };
+		6896D64020DA68F600280DD6 /* NodeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896D63F20DA68F600280DD6 /* NodeInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		5ADB10E820CAD06A006DDD3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5ADB10E920CAD06A006DDD3E /* Scheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scheduler.m; sourceTree = "<group>"; };
 		5ADB10EB20CAD509006DDD3E /* ReturnCodeKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnCodeKeys.h; sourceTree = "<group>"; };
+		6896D63E20DA68F600280DD6 /* NodeInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeInfo.h; sourceTree = "<group>"; };
+		6896D63F20DA68F600280DD6 /* NodeInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 			children = (
 				5A44DAF420D39E310094133C /* TaskInfo.h */,
 				5A44DAF520D39E310094133C /* TaskInfo.m */,
+				6896D63E20DA68F600280DD6 /* NodeInfo.h */,
+				6896D63F20DA68F600280DD6 /* NodeInfo.m */,
 				5ADB10D420CACCCE006DDD3E /* Schedule.h */,
 				5ADB10D520CACCCE006DDD3E /* Schedule.m */,
 				5ADB10CE20CACC42006DDD3E /* TestExamDemo.m */,
@@ -267,6 +272,7 @@
 				5A44DAF620D39E310094133C /* TaskInfo.m in Sources */,
 				5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */,
 				5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */,
+				6896D64020DA68F600280DD6 /* NodeInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
